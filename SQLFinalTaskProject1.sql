@@ -33,8 +33,6 @@ CREATE TABLE DimBranch (
 	CONSTRAINT PKBranchID PRIMARY KEY (BranchID)
 );
 
-DROP TABLE FactTransaction
-
 CREATE TABLE FactTransaction (
 	TransactionID INT NOT NULL,
 	AccountID INT NOT NULL,

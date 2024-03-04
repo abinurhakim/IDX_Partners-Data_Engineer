@@ -15,8 +15,7 @@ BEGIN
 		TransactionDate
 END;
 
-EXEC DailyTransactions @start_date ='2024-01-18', @end_date= '2024-01-20'
-
+EXEC DailyTransactions @start_date ='2024-01-18', @end_date= '2024-01-21'
 
 
 CREATE PROCEDURE BalancePerCustomers
@@ -44,4 +43,3 @@ BEGIN
 END
 
 EXEC BalancePerCustomers @name = 'Shelly'
-EXEC BalancePerCustomers @name = 'SHELLY JUWITA'
